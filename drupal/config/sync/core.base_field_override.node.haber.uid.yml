@@ -1,0 +1,20 @@
+uuid: 7daf9252-e27c-46c9-bd05-d95b994db99b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber
+id: node.haber.uid
+field_name: uid
+entity_type: node
+bundle: haber
+label: Yazan
+description: 'Gönderinin yazarının adı'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,15 @@
+uuid: ca513f41-9da8-4bda-bf58-f0ff0cfd8c8d
+langcode: tr
+status: true
+dependencies: {  }
+name: grid_resim_stili_360_x_250
+label: 'Grid Resim Stili 360 x 250'
+effects:
+  e1d24447-b8d1-4f1a-972e-f29da58c25b5:
+    uuid: e1d24447-b8d1-4f1a-972e-f29da58c25b5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 250
+      anchor: center-center

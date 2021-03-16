@@ -1,0 +1,20 @@
+uuid: 8e88af17-6fbf-4b01-bd84-091a54f4580b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - path
+id: media.image.path
+field_name: path
+entity_type: media
+bundle: image
+label: 'URL takma adları'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

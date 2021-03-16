@@ -1,0 +1,10 @@
+uuid: df6531b8-e46f-460f-a6c2-a198f38e34a5
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Araçlar
+description: 'Sıklıkla modüller tarafından eklenen kullanıcı araçları bağlantıları'
+locked: true

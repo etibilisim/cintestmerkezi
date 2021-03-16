@@ -1,0 +1,24 @@
+uuid: d0ccfe25-a77c-4d38-8b99-5bedb400d96e
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: haber_hizmet_makale_url_yol_ayari
+label: 'Haber, Hizmet, Makale URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  fd3da60b-f9e6-4095-b27a-02eb6c9a7d39:
+    id: node_type
+    bundles:
+      article: article
+      haber: haber
+      hizmet: hizmet
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fd3da60b-f9e6-4095-b27a-02eb6c9a7d39
+selection_logic: and
+weight: -5
+relationships: {  }

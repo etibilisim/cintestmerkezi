@@ -1,0 +1,20 @@
+uuid: 18fa7d61-9052-42fb-b6b2-acf62872c703
+langcode: tr
+status: true
+dependencies:
+  theme:
+    - bartik
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bartik_local_actions
+theme: bartik
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Birincil yönetici eylemleri'
+  provider: core
+  label_display: '0'
+visibility: {  }

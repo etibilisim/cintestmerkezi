@@ -1,0 +1,18 @@
+uuid: fe53268c-0ba2-4bfd-ba43-9c665c5a5b5e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+id: node.hizmet
+target_entity_type_id: node
+target_bundle: hizmet
+default_langcode: site_default
+language_alterable: true

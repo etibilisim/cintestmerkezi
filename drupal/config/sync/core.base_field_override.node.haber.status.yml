@@ -1,0 +1,22 @@
+uuid: 66870ede-30ec-4b31-a254-d14b80a56b10
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber
+id: node.haber.status
+field_name: status
+entity_type: node
+bundle: haber
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,35 @@
+uuid: ba528f3c-46ff-45c9-a8c9-78d4dda12def
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hizmet.body
+    - field.field.node.hizmet.field_hizmet_ikon
+    - field.field.node.hizmet.field_hizmet_sira_no
+    - node.type.hizmet
+  module:
+    - text
+    - user
+id: node.hizmet.teaser
+targetEntityType: node
+bundle: hizmet
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_hizmet_ikon: true
+  field_hizmet_sira_no: true
+  langcode: true

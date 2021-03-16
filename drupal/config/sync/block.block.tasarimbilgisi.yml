@@ -1,0 +1,25 @@
+uuid: 93dc3748-d382-4560-8c45-ca523ae3a6bc
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a5c81b05-e881-4779-9591-156545229578'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: tasarimbilgisi
+theme: conference_lite
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:a5c81b05-e881-4779-9591-156545229578'
+settings:
+  id: 'block_content:a5c81b05-e881-4779-9591-156545229578'
+  label: 'Tasarım Bilgisi'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

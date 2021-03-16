@@ -1,0 +1,20 @@
+uuid: bfff3290-f50c-4149-b76e-c3f0ecdd2fde
+langcode: tr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.uid
+field_name: uid
+entity_type: comment
+bundle: comment
+label: 'Kullanıcı ID'
+description: 'Yorum yazarının kullanıcı kimliği.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: 57f0821e-7fe2-4d4e-a5df-59d6811e8a9a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet.metatag
+field_name: metatag
+entity_type: node
+bundle: hizmet
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

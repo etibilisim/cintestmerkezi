@@ -1,0 +1,18 @@
+uuid: c097fe51-8f4a-4fdf-83df-77e48caa4058
+langcode: tr
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+id: shortcut.default.title
+field_name: title
+entity_type: shortcut
+bundle: default
+label: İsim
+description: 'Kısayolun adı.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

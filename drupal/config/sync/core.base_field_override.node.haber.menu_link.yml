@@ -1,0 +1,20 @@
+uuid: eff0da9e-f629-467c-8fa9-741fcac2600e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber
+id: node.haber.menu_link
+field_name: menu_link
+entity_type: node
+bundle: haber
+label: 'Menü bağlantısı'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

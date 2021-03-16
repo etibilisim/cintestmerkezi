@@ -1,0 +1,20 @@
+uuid: 7702470c-a4f8-4865-b43d-6e8d9b32f21b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: İsim
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

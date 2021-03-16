@@ -1,0 +1,20 @@
+uuid: bad96b16-0f75-43cd-9840-a6f466d7d4de
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet.uid
+field_name: uid
+entity_type: node
+bundle: hizmet
+label: Yazan
+description: 'Gönderinin yazarının adı'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

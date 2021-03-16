@@ -1,0 +1,22 @@
+uuid: 2e822311-6011-4fe9-822d-72d1b386cc1c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber
+id: node.haber.promote
+field_name: promote
+entity_type: node
+bundle: haber
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

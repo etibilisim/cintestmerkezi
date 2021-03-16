@@ -1,0 +1,10 @@
+uuid: aae63319-47eb-4a2b-9198-9df79f34c75c
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
+id: html_yearless_date
+label: 'HTML Yılsız tarih'
+locked: true
+pattern: m-d

@@ -1,0 +1,20 @@
+uuid: 41970e5d-48c8-400e-afe9-3e9aad38b91e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.webform
+id: node.webform.menu_link
+field_name: menu_link
+entity_type: node
+bundle: webform
+label: 'Menü bağlantısı'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: b6efa074-c118-4ad3-8d56-4d1f4bf8be9f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet.sticky
+field_name: sticky
+entity_type: node
+bundle: hizmet
+label: 'Listelerin üzerinde kalıcı'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

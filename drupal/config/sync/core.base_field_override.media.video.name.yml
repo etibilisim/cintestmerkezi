@@ -1,0 +1,20 @@
+uuid: d19b311f-152a-4b2a-886b-708ad10770eb
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: İsim
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

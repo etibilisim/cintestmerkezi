@@ -1,0 +1,20 @@
+uuid: 7797c10b-c625-442d-b7a2-404920db9c25
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_gorseli
+id: node.anasayfa_gorseli.uid
+field_name: uid
+entity_type: node
+bundle: anasayfa_gorseli
+label: Yazan
+description: 'Gönderinin yazarının adı'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

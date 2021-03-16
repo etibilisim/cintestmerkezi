@@ -1,0 +1,20 @@
+uuid: be646b66-e495-4acb-b734-c4bc933cc4ea
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.name
+field_name: name
+entity_type: media
+bundle: audio
+label: İsim
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

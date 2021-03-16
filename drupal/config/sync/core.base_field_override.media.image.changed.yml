@@ -1,0 +1,18 @@
+uuid: f9d78008-a7d2-49e4-834e-61d74e458162
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.changed
+field_name: changed
+entity_type: media
+bundle: image
+label: Değişti
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

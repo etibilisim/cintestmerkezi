@@ -1,0 +1,18 @@
+uuid: b2fb4d2d-7094-4ce1-9c43-bac222bbed49
+langcode: tr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.hostname
+field_name: hostname
+entity_type: comment
+bundle: comment
+label: 'Sunucu adı'
+description: 'Yorum yazarının anasistem adı.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultHostname'
+settings: {  }
+field_type: string

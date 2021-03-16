@@ -1,0 +1,49 @@
+uuid: 3a6e073b-ec54-487f-b5e7-48c459361c04
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.hizmet.body
+    - field.field.node.hizmet.field_hizmet_ikon
+    - field.field.node.hizmet.field_hizmet_sira_no
+    - node.type.hizmet
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.hizmet.default
+targetEntityType: node
+bundle: hizmet
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hizmet_ikon:
+    weight: 102
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_hizmet_sira_no:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

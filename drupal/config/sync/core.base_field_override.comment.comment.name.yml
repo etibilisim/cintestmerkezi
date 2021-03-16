@@ -1,0 +1,20 @@
+uuid: 4ca8fdd0-3a38-46a6-9a50-6f33f8234c66
+langcode: tr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.name
+field_name: name
+entity_type: comment
+bundle: comment
+label: İsim
+description: 'Yorum yazarının adı.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

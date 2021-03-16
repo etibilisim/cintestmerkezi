@@ -1,0 +1,30 @@
+uuid: b5422fb3-2bdd-4583-9df8-dd770576413a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.anasayfa_gorsel
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__anasayfa_gorsel_block_1
+theme: conference_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:anasayfa_gorsel-block_1'
+settings:
+  id: 'views_block:anasayfa_gorsel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

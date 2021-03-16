@@ -1,0 +1,22 @@
+uuid: ac1a30f6-691e-4cf0-9fd0-f7b16347808f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_gorseli
+id: node.anasayfa_gorseli.status
+field_name: status
+entity_type: node
+bundle: anasayfa_gorseli
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

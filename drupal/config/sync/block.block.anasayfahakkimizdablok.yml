@@ -1,0 +1,31 @@
+uuid: c379865c-fc67-4546-8e3d-1a074a29483d
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:76a608c7-47bc-4aa0-8b4a-56f10e47016a'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: anasayfahakkimizdablok
+theme: conference_lite
+region: featured_top
+weight: 0
+provider: null
+plugin: 'block_content:76a608c7-47bc-4aa0-8b4a-56f10e47016a'
+settings:
+  id: 'block_content:76a608c7-47bc-4aa0-8b4a-56f10e47016a'
+  label: 'Anasayfa Hakkımızda Blok'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

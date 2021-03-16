@@ -1,0 +1,18 @@
+uuid: ee741cfa-3493-4d78-8870-2c7a7aa0ce5b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.created
+field_name: created
+entity_type: media
+bundle: document
+label: 'Yazıldığı tarih'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

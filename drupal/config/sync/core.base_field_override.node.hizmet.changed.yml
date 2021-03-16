@@ -1,0 +1,18 @@
+uuid: d29ff383-c4a8-4b83-9570-7cad98f834fd
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet.changed
+field_name: changed
+entity_type: node
+bundle: hizmet
+label: Değişti
+description: 'Düğümün en son düzenlendiği zaman.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
